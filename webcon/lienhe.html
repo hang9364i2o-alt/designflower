@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lienhe Lavender</title>
+    <style>
+        body{ font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 91, 168);
+            line-height: 1.6;
+             margin: 0;
+        }
+        header{
+        padding: 20px 8%;
+        background-image: url(../img/backgr.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;}
+        header h1{ font-size: 50px;
+        font-weight: bold;
+        color: white;
+        font-family: cursive;
+        }
+        header p{ margin: 20px;
+                font-weight: bold;
+                    font-size: 20px;}
+        nav { height: 50px;
+           background-color: rgb(223, 67, 145);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 50px;
+           box-shadow: 2px 2px 5px;
+        }
+        nav a{ color: white;
+         font-weight: bold;
+        text-decoration: none;}
+        nav a:hover{ background-color: white;
+        color: brown;
+        padding: 12px;}
+        .phieudathoa{text-align: center;
+        justify-content: center;
+        }
+        h2{text-align: center;
+        color: rgb(250, 137, 156);}
+        .phieudathoa {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form td {
+    padding: 15px;
+    font-size: 18px;
+}
+
+form label {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+ footer{background-color: rgb(223, 67, 145);
+                        text-align: center;
+                    font-weight: bold;
+                color: white;}
+    </style>
+</head>
+<body>
+     <header>
+        <h1> LAVENDER FLOWER</h1>
+        <P>Mỗi đóa hoa-một lời yêu thương</P>
+    </header>
+   <nav>
+        <a href="../index.html">Trang chủ</a>
+        <a href="./gioithieu.html" >Giới thiệu</a>
+        <a href="./sanpham.html">Sản phẩm</a>
+        <a href="./lienhe.html">Liên hệ</a>
+    </nav>
+<div class="phieudathoa">
+
+    <h2>PHIẾU ĐẶT HOA </h2>
+   <form>
+    <table border="1" align="center" cellspacing="0">
+        
+        <tr>
+            <td><label for="hoten">Họ và tên</label>  </td>
+            <td><input type="text" name="hoten" id="hoten" placeholder="Nhập họ tên"></td>
+        </tr>
+        <tr>
+            <td><label for="sdt">Điện thoại</label> </td>
+            <td><input type="text-field" name="sdt" id="sdt" placeholder="Số điện thoại"> </td>
+        </tr>
+        <tr>
+            <td><label for="gm">Email</label></td>
+            <td><input type="text" name="gm" id="gm"></td>
+        </tr>
+        <tr>
+            <td><label for="sp">Sản phẩm muốn đặt</label></td>
+            <td>
+                <select name="sosp" id="sp">
+                    <option value="1n">Hoa hồng </option>
+                    <option value="2n">Hoa hương dương</option>
+                    <option value="3n">Hoa dâu tây</option>
+                    <option value="4n">Hoa baby</option>
+                    <option value="5n">Hoa pastel</option>
+                    <option value="6n">Hoa tulip</option>
+                </select>
+            </td>
+        </tr>
+       <td> <label for="nn">Ngày nhận hoa</label></td>
+       <td>  <input type="date" name="nn" id="nn"></td>
+        <tr>
+            <td>Yêu cầu khác:</td>
+            <td>
+                <textarea name="yeucau" rows="5" cols="20"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="đc">Địa chỉ giao hoa</label> </td>
+            <td><input type="text" name="đc" id="đc" placeholder="Nhập địa chỉ"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="ĐẶT HÀNG">
+                <input type="reset" value="NHẬP LẠI">
+            </td>
+        </tr>
+    </table>
+    </form>
+    <p class="cam-on">
+        Cảm ơn bạn đã lựa chọn Lavender Flower 
+    </p>
+<footer>
+
+        <p>
+            Địa chỉ: 123 Đường Hoa Hồng, TP. Hồ Chí Minh
+        </p>
+
+        <p>
+            Điện thoại: 0123 456 789
+        </p>
+
+        <p>
+            Email: flowershop@gmail.com
+        </p>
+
+        <p>
+            Người thiết kế: Nguyễn Ngọc Hằng
+        </p>
+    </footer>
+</body>
+</html>
